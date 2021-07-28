@@ -18,4 +18,5 @@ public class UserCreationStepDefinitions {
     public void elUsuarioSeRegistraEnLaPagina() {
         usuario.attemptsTo(UserRegistration.userRegistration());
     }
+    //Assert.assertEquals
 }

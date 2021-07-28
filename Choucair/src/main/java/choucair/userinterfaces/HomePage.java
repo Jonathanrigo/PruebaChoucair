@@ -17,4 +17,10 @@ public class HomePage {
     public static final Target CORREO = Target.the("").located(By.id("email-info_email"));
     public static final Target CORREOCONF = Target.the("").located(By.id("email-info_emailConfirmation"));
     public static final Target SIGUIENTE = Target.the("aceptar").locatedBy("//button[@class='ant-btn ant-btn-round common-button signup__actions signup__actions--next small']");
+    public static final Target NOMBRE = Target.the("Nombre").locatedBy("//*[@id=\"personal-info_firstName\"]");
+    public static final Target APELLIDO = Target.the("Apellido").locatedBy("//*[@id=\"personal-info_lastName\"]");
+    public static final Target SIGUIENTE2 = Target.the("Siguiente2").locatedBy("//*[@id=\"personal-info\"]/div[2]/button[2]");
+    public static final Target PAIS = Target.the("Pais").locatedBy("//*[@id=\"birth-info\"]/div[1]/div[1]/div/div/div/div/div/span[2]");
+    //public static final Target ANO = Target.the("Año").locatedBy("//*[@id=\"birth-info\"]/div[1]/div[2]/div/div/div/div");
+
 }

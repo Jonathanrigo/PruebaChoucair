@@ -13,28 +13,35 @@ public class UserRegistration implements Task {
     @Override
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
-                Wait.theSeconds(3),
+                Wait.theSeconds(2),
                 Click.on(HomePage.EMPLEO),
-                Wait.theSeconds(3),
+                Wait.theSeconds(2),
                 Scroll.to(HomePage.SCROLL),
                 Click.on(HomePage.PORTAL),
-                Wait.theSeconds(3),
+                Wait.theSeconds(2),
                 Click.on(HomePage.CONTINUAR),
-                Wait.theSeconds(3),
+                Wait.theSeconds(2),
                 Scroll.to(HomePage.LOGO),
                 Click.on(HomePage.REGISTRATE),
-                Wait.theSeconds(3),
+                Wait.theSeconds(2),
                 Click.on(HomePage.CONREGISTRAR),
-                Wait.theSeconds(3),
+                Wait.theSeconds(2),
                 Click.on(HomePage.MANUAL),
                 Click.on(HomePage.CONDICIONES),
-                Wait.theSeconds(3),
+                Wait.theSeconds(2),
                 Click.on(HomePage.ACEPTAR),
-                Wait.theSeconds(3),
+                Wait.theSeconds(2),
                 SendKeys.of("el_correo@hotmail.com").into(HomePage.CORREO),
                 SendKeys.of("el_correo@hotmail.com").into(HomePage.CORREOCONF),
-                Wait.theSeconds(3),
-                Click.on(HomePage.SIGUIENTE)
+                Wait.theSeconds(2),
+                Click.on(HomePage.SIGUIENTE),
+                Wait.theSeconds(2),
+                SendKeys.of("Jonathan").into(HomePage.NOMBRE),
+                SendKeys.of("Rios").into(HomePage.APELLIDO),
+                Wait.theSeconds(2),
+                Click.on(HomePage.SIGUIENTE2),
+                Click.on(HomePage.PAIS),
+                SendKeys.of("Colombia").into(HomePage.PAIS)
         );
     }
     public static UserRegistration userRegistration(){
