@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Como usuario de la pagina choucair" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-07-27T03:50:13" hostname="DESKTOP-SJC6RV1" time="111.753">
+  <properties/>
+  <testcase name="Correcto registro de informacion" classname="Como usuario de la pagina choucair" time="111.753"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}) on port 13985
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+jul. 26, 2021 10:50:55 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>

@@ -1,0 +1,8 @@
+choucair/utils/MiDriver.java
+ choucair.utils.MiDriver
+choucair/interactions/Wait.java
+ choucair.interactions.Wait
+choucair/tasks/UserRegistration.java
+ choucair.tasks.UserRegistration
+choucair/userinterfaces/HomePage.java
+ choucair.userinterfaces.HomePage
